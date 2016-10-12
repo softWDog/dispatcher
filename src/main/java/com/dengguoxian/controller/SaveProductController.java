@@ -31,7 +31,7 @@ public class SaveProductController implements org.springframework.web.servlet.mv
 		} catch (NumberFormatException e) {
 			System.out.println("输入的价格有误");
 		}
-		return new ModelAndView("jsp/ProductDetails.jsp", "product", product);
+		return new ModelAndView("/jsp/ProductDetails.jsp", "product", product);
 
 	}
 }

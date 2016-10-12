@@ -13,7 +13,7 @@ public class InputProductController implements Controller {
 	public ModelAndView handleRequest(HttpServletRequest arg0, HttpServletResponse arg1) throws Exception {
 		// TODO Auto-generated method stub
 		logger.info("InputProductController called");
-		return new ModelAndView("/jsp/ProductForm.jsp");
+		return new ModelAndView("/ProductForm.jsp");
 	}
 
 }
